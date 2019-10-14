@@ -31,11 +31,23 @@
         align-items: center;
         text-align: center;
         padding-bottom: 25px;
-        border-bottom: 10px solid #cccccc;
     }
-
-    .logo {
-        
+    form, .content {
+        margin: 25px;
+    }
+    .splash {
+        font-family: 'Mansalva', cursive;
+        background-color: #cccccc;
+        font-size: 26px;
+        padding: 10px 0;
+        margin: 25px 0;
+        width: 100%;
+    }
+    .splash div {
+        margin: 0;
+        padding: 0;
+        font-variant: small-caps;
+        transform: rotate(5deg);
     }
 
     .title {
@@ -43,7 +55,6 @@
     }
 
     main {
-        margin: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -127,11 +138,12 @@
     </header>
 
     <main>
-        <article>
-            <div>Help the Rogers Reunion off to a great start.</div>
+        <article class="splash">
+            <div>20 for 2020</div>
+        </article>
+        <article class="content">            
             <div>Contribute $20 per month for 9 months.</div>
             <div>Click below to get started.<span class="arrow">&#x21b4;</span></div>
-
         </article>
         <form style="position: relative" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick">

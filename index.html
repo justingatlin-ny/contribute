@@ -28,24 +28,14 @@
         font-size: xx-large;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 25px;
+        border-bottom: 10px solid #cccccc;
     }
 
-    footer {
-        background-color: #cccccc;
-        font-size: xx-small;
-        display: flex;
-        flex-direction: row;        
-        justify-content: space-between;
-        padding: 10px;
-    }
-    footer div:nth-child(2) {
-        text-align: center;
-    }
-    footer div:nth-child(3) {
-        align-self: center;
-    }
     .logo {
-        margin-right: 25px;
+        
     }
 
     .title {
@@ -60,7 +50,6 @@
     }
 
     article {
-        margin: 25px 0;
         text-align: center;
     }
 
@@ -82,10 +71,27 @@
         vertical-align: middle;
     }
 
+    footer {
+        background-color: #cccccc;
+        font-size: small;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50px;
+        padding: 10px;
+    }
+
+    footer div:nth-child(2) {
+        text-align: center;
+    }
+
+    footer div:nth-child(3) {
+        align-self: center;
+    }
+
     @media screen and (max-width: 414px) {
-        header {
-            align-items: center;
-            text-align: center;
+        footer {
+            font-size: xx-small;
         }
 
         input[type="image"] {
@@ -132,7 +138,8 @@
             <input type="hidden" name="hosted_button_id" value="7C6GGBP9UZ6SJ">
             <input type="image" src="https://rogers-reunion.s3.amazonaws.com/rogers-20-button.png" border="0"
                 name="submit" alt="PayPal - The safer, easier way to pay online!">
-            <img style="position: absolute" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            <img style="position: absolute" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                width="1" height="1">
         </form>
     </main>
     <footer>

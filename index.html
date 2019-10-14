@@ -1,16 +1,149 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Rogers Reunion 2020 - Dallas</title>    
-  </head>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
-  <body> 
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="7C6GGBP9UZ6SJ">
-        <input type="image" src="https://rogers-reunion.s3.amazonaws.com/rogers-20-button.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rogers Reuion 2020 - Dallas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam|Mansalva|Open+Sans|Poppins&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="https://rogers-reunion.s3.amazonaws.com/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="https://rogers-reunion.s3.amazonaws.com/favicon.ico" type="image/x-icon" />
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    header {
+        font-family: 'Mansalva', cursive;
+        font-size: xx-large;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        background-color: #cccccc;
+        font-size: xx-small;
+        display: flex;
+        flex-direction: row;        
+        justify-content: space-between;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    footer div:nth-child(2) {
+        text-align: center;
+    }
+    footer div:nth-child(3) {
+        align-self: center;
+    }
+    .logo {
+        margin-right: 25px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    main {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article {
+        margin: 25px 0;
+        text-align: center;
+    }
+
+    article div {
+        margin: 25px 0;
+    }
+
+    form {
+        border-style: outset;
+    }
+
+    form:hover {
+        border-style: inset;
+        padding: 2px 0 0 2px;
+    }
+
+    .arrow {
+        font-size: xx-large;
+        vertical-align: middle;
+    }
+
+    @media screen and (max-width: 414px) {
+        header {
+            align-items: center;
+        }
+
+        input[type="image"] {
+            width: 100%;
+        }
+
+        article div {
+            margin: 10px 0;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .desktop {
+            display: none;
+        }
+
+        .city {
+            margin-top: 10px;
+            display: block;
+            text-align: center;
+        }
+    }
+</style>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <header>
+        <div class="logo"><img width="300"
+                src="https://rogers-reunion.s3.amazonaws.com/second-generation-cousings-new-mexico-blured.png" /></div>
+        <div class="title">Rogers Reunion 2020 <span class="desktop">-</span> <span class="city">Dallas</span></div>
+    </header>
+
+    <main>
+        <article>
+            <div>Help the Rogers Reunion get to a great start.</div>
+            <div>Contribute $20 per month for 9 months.</div>
+            <div>Click below to get started.<span class="arrow">&#x21b4;</span></div>
+
+        </article>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="7C6GGBP9UZ6SJ">
+            <input type="image" src="https://rogers-reunion.s3.amazonaws.com/rogers-20-button.png" border="0"
+                name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>
-  </body>
+    </main>
+    <footer>
+        <div>&copy;
+            <script>document.write(new Date(Date.now()).getFullYear())</script><br />All Rights Reserved.</div>
+        <div>Rogers Reunion<br />Committee</div>
+        <div>Bring it.</div>
+    </footer>
+</body>
+
 </html>

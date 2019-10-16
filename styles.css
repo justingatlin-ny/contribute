@@ -16,6 +16,9 @@ header {
 header img.desktop {
     max-width: 100%;
 }
+header .desktop.hyphen {
+    margin-left: 10px;
+}
 form, .content {
     margin: 25px;
 }
@@ -116,16 +119,14 @@ footer div:nth-child(3) {
     .desktop {
         display: none;
     }
-}
-@media screen and (min-width: 415px) {
-    .mobile {
-        display: none;
-    }
-}
-@media screen and (max-width: 375px) {
     .city {
         margin-top: 10px;
         display: block;
         text-align: center;
+    }
+}
+@media screen and (min-width: 415px) {
+    .mobile {
+        display: none;
     }
 }

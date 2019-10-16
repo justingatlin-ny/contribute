@@ -15,131 +15,28 @@
         rel="stylesheet">
     <link rel="icon" href="https://rogers-reunion.s3.amazonaws.com/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="https://rogers-reunion.s3.amazonaws.com/favicon.ico" type="image/x-icon" />
+    <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
-<style>
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    header {
-        font-family: 'Mansalva', cursive;
-        font-size: xx-large;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding-bottom: 25px;
-    }
-    form, .content {
-        margin: 25px;
-    }
-    .splash {
-        font-family: 'Mansalva', cursive;
-        background-color: #cccccc;
-        font-size: 26px;
-        padding: 10px 0;
-        margin: 25px 0;
-        width: 100%;
-    }
-    .splash div {
-        margin: 0;
-        padding: 0;
-        font-variant: small-caps;
-        transform: rotate(5deg);
-    }
-
-    .title {
-        font-size: 30px;
-    }
-
-    main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    article {
-        text-align: center;
-    }
-
-    article div {
-        margin: 25px 0;
-    }
-
-    form {
-        border-style: outset;
-    }
-
-    form:hover {
-        border-style: inset;
-        padding: 2px 0 0 2px;
-    }
-
-    .arrow {
-        font-size: xx-large;
-        vertical-align: middle;
-    }
-
-    footer {
-        background-color: #cccccc;
-        font-size: small;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 50px;
-        padding: 10px;
-    }
-
-    footer div:nth-child(2) {
-        text-align: center;
-    }
-
-    footer div:nth-child(3) {
-        align-self: center;
-    }
-
-    @media screen and (max-width: 414px) {
-        footer {
-            font-size: xx-small;
-        }
-
-        input[type="image"] {
-            width: 100%;
-        }
-
-        article div {
-            margin: 10px 0;
-        }
-    }
-
-    @media screen and (max-width: 375px) {
-        .desktop {
-            display: none;
-        }
-
-        .city {
-            margin-top: 10px;
-            display: block;
-            text-align: center;
-        }
-    }
-</style>
 
 <body>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <header>
-        <div class="logo"><img width="300"
-                src="https://rogers-reunion.s3.amazonaws.com/second-generation-cousings-new-mexico-blured.png" /></div>
-        <div class="title">Rogers Reunion 2020 <span class="desktop">-</span> <span class="city">Dallas</span></div>
+        <div class="logo"><img class="desktop"
+                src="https://rogers-reunion.s3.amazonaws.com/whole-family-3.png"
+                />
+                <img class="mobile" width="300"
+                src="https://rogers-reunion.s3.amazonaws.com/second-generation-cousings-new-mexico-blured.png"
+                />
+            </div>
+                </div>
+        <div class="title">Rogers Reunion 2020<span class="desktop">-</span> <span class="city">Dallas</span></div>
     </header>
 
     <main>
         <article class="splash">
-            <div>20 for 2020</div>
+            <div><div>20 for 2020</div><div>Fundraiser</div></div>
         </article>
         <article class="content">            
             <div>Contribute $20 per month for 9 months.</div>

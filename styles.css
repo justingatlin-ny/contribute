@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    font-family: 'Mansalva', cursive;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header img.desktop {
+    max-width: 100%;
+}
+form, .content {
+    margin: 25px;
+}
+.splash {
+    font-family: 'Mansalva', cursive;
+    background-color: #dcb943;
+    font-size: 26px;
+    padding: 10px 0;
+    margin: 25px 0;
+    width: 100%;
+}
+.splash > div {
+    margin: 20px 0;
+    padding: 0;
+    font-variant: small-caps;
+    position: relative;
+}
+.splash div div {
+    display: inline-block;
+    /* margin: 20px 0; */
+    transform: rotate(5deg);
+}
+.splash div div:nth-child(1) {
+    position: relative;
+    top: -22px;
+    right: -32px;
+}
+.splash div div:nth-child(2) {
+    position: relative;
+    bottom: -16px;
+    left: -20px;
+}
+.title {
+    font-size: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    text-align: center;
+}
+
+article > div {
+    margin: 25px 0;
+}
+
+form {
+    border-style: outset;
+}
+
+form:hover {
+    border-style: inset;
+    padding: 2px 0 0 2px;
+}
+
+.arrow {
+    font-size: xx-large;
+    vertical-align: middle;
+}
+
+footer {
+    background-color: #dcb943;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+footer div:nth-child(2) {
+    text-align: center;
+}
+
+footer div:nth-child(3) {
+    align-self: center;
+}
+
+@media screen and (max-width: 414px) {
+    .splash, footer {
+        background-color: #ab3329;
+    }
+    footer {
+        font-size: xx-small;
+    }
+
+    input[type="image"] {
+        width: 100%;
+    }
+
+    article div {
+        margin: 10px 0;
+    }
+    .desktop {
+        display: none;
+    }
+}
+@media screen and (min-width: 415px) {
+    .mobile {
+        display: none;
+    }
+}
+@media screen and (max-width: 375px) {
+    .city {
+        margin-top: 10px;
+        display: block;
+        text-align: center;
+    }
+}

@@ -21,6 +21,13 @@ header .desktop.hyphen {
 }
 form, .content {
     margin: 25px;
+    margin-bottom: 0;
+}
+.content .intro {
+    font-size: x-large;
+}
+.intro div {
+    font-size: medium;
 }
 .splash {
     font-family: 'Mansalva', cursive;
@@ -64,13 +71,32 @@ main {
 article {
     text-align: center;
 }
-
+ol {
+    text-align: left;
+}
+ol li {
+    padding-left: 10px;
+    margin-top: 10px;
+}
+li div {
+}
 article > div {
     margin: 25px 0;
 }
 
 form {
     border-style: outset;
+    display: inline-block;
+    max-width: 33%;
+    position: relative;
+}
+
+form img {
+    position: absolute;
+}
+
+form input[type="image"] {
+    max-width: 100%;
 }
 
 form:hover {
